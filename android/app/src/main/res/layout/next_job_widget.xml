@@ -1,0 +1,60 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Widget.RNWidgets_2.AppWidget.Container"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:rowCount="2"
+    android:columnCount="2"
+    android:theme="@style/AppTheme.AppWidgetContainer"
+    android:background="@drawable/app_widget_background"
+    tools:context=".NextJobWidget">
+
+    <TextView
+        android:id="@+id/job_name"
+        style="@style/Widget.RNWidgets_2.AppWidget.InnerView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="1dp"
+        android:contentDescription="@string/job_name"
+        android:text="@string/job_name"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="@color/light_blue_50"/>
+
+    <TextView
+        android:id="@+id/eta"
+        style="@style/Widget.RNWidgets_2.AppWidget.InnerView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="1dp"
+        android:text="@string/eta"
+        android:textStyle="bold"
+        android:textColor="@color/light_blue_50"
+        />
+
+    <ImageView
+        android:id="@+id/open_maps"
+        style="@style/Widget.RNWidgets_2.AppWidget.InnerView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="opens_map"
+        android:src="@android:drawable/ic_dialog_map" />
+
+    <TextView
+        android:id="@+id/location"
+        style="@style/Widget.RNWidgets_2.AppWidget.InnerView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="1dp"
+        android:text="@string/location_name"
+        android:textStyle="bold"
+        android:textColor="@color/light_blue_50"
+        />
+
+</GridLayout>

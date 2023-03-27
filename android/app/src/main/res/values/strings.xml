@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">RNWidgets_2</string>
+    <string name="appwidget_text">Route Me</string>
+    <string name="add_widget">Add widget</string>
+    <string name="app_widget_description">This is an app widget description</string>
+    <string name="job_name">Job Name</string>
+    <string name="location_name">Location</string>
+    <string name="eta">ETA</string>
+    <string name="pending_jobs">0/10 Done</string>
+
+</resources>
