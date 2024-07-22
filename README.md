@@ -1,6 +1,8 @@
 # RNWidgets_2
 
-Creating a widget for a React Native app on Android involves using the `SharedStorage` feature from `NativeModules`. Here's a step-by-step guide:
+Project to create a widget for a React Native app on Android. Uses the `SharedStorage` feature from `NativeModules`. 
+
+Here's a step-by-step guide:
 
 1. **Setup the React Native App:**
    - Create a bare React Native app using the command: `npx react-native init RNWidgets_2`
